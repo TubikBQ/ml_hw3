@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+work/
+models/
+data/
+logs/
+results/reload_before.json
+results/reload_check.json
+results/latency.csv
+*.safetensors
+*.joblib
+*.pt
+*.pth
+*.zip

@@ -1,0 +1,12 @@
+model,split,n,macro_f1_all,selected,macro_f1_valid,valid_fraction,precision,recall,threshold,review_fraction
+TF-IDF word,validation full,8578,0.7202890879010782,False,,,,,,
+TF-IDF char,validation full,8578,0.7266137254231909,True,,,,,,
+ruBERT,validation full,8578,0.7398146559704605,True,,,,,,
+Qwen zero-shot,validation shared,30,0.3527777777777778,False,0.45875420875420875,0.6,,,,
+Qwen few-shot,validation shared,30,0.5813572392519761,True,0.5813572392519761,1.0,,,,
+tfidf,test full,8578,0.7221692520914464,,,,,,,
+tfidf,test shared,150,0.7358884910431303,,,,,,,
+rubert,test full,8578,0.7386244683026023,,,,,,,
+rubert,test shared,150,0.7499189522142254,,,,,,,
+Qwen few-shot,test shared,150,0.5912085535057631,,0.5927844356571849,0.9933333333333333,,,,
+manual review,test full,8578,,,,,0.8161512027491409,0.4996493688639551,0.65,0.2035439496386104
